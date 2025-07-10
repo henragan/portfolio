@@ -1,0 +1,91 @@
+/* idk*/
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* header strip*/
+header {
+  background: #ff00f2;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/*little bar color*/
+nav {
+  background: #68fa00;
+  padding: 10px;
+  text-align: center;
+}
+
+/* text on little bar color*/
+nav a {
+  margin: 0 15px;
+  color: #1500fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* little boxes in portfolio */
+.project {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  background: #004466;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.blog-image {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 0px;
+}
+
+.blog-image-small {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 0px;
+}
+
+.blog-image-medium {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 0px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
