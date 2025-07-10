@@ -131,3 +131,15 @@ input[type="password"] {
   width: 90%;
   margin-bottom: 10px;
 }
+
+.blurred {
+  filter: blur(6px);
+  pointer-events: none; /* prevent clicking elements behind popup */
+  user-select: none;
+}
+
+.unblurred {
+  filter: none;
+  pointer-events: auto;
+  user-select: auto;
+}
