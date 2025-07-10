@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <div id="lockscreen" class="popup-overlay">
+  <div class="popup-box">
+    <h2>wut r u doing here</h2>
+    <input type="password" id="passwordInput" placeholder="?" />
+    <button onclick="checkPassword()">submit</button>
+    <p id="error" style="color: red; display: none;">:/.</p>
+  </div>
+</div>
+
   <meta charset="UTF-8" />
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
@@ -8,19 +17,19 @@
 <body>
   <header>
   <div class="full-width-name">
-    <h1>h&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;r&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;g&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;n</h1>
+<h1>h&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;r&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;g&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;n</h1>
     <p>you sell what you need, i buy what i own</p>
   </header>
 
   <nav>
     <a href="#about">artsyfilmy</a>
     <a href="#portfolio">music</a>
-    <a href="#contact">email</a>
+    <a href="#free shit">inspiration</a>
+    <a href="#contact">contact</a>
   </nav>
 
   <section id="about">
     <h2>artsyfilmy</h2>
-    <p>art and film</p>
 
     <img src="oaktree.jpg" alt="no alt proposed" class="blog-image">
    <p><i>An Oak Tree</i></p>
@@ -115,29 +124,42 @@ Obviously Andrew is no Amazon, but the performance appears less about disrupting
 
   </section>
   <section id="portfolio">
-    <h2>music</h2>
+    <h2>music / sounds</h2>
     <div class="project">
-      <h3>Days of the Week In Georgian</h3>
+      <h3>days of the week</h3>
           <audio controls>
           <source src="weekdays.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
 </audio>
     </div>
-    <div class="project">
-      <h3>TREX Proposal</h3>
-      <p>Managed technical writing and quality assurance for FCI's multi-CLIN response.</p>
-    </div>
-    <!-- Add more projects as needed -->
+  </section>
+
+  <section id ="free shit">
+    <h2>inspiration</h2>
+
+      <a href="Eco_Umberto_The_Role_of_the_Reader_1979.pdf" download>Eco_Umberto_The_Role_of_the_Reader_1979.pdf</a>
+
+      <p></p>
+
+      <a href="[Umberto-Eco]-A-Theory-of-Semiotics(z-lib.org).pdf" download>[Umberto-Eco]-A-Theory-of-Semiotics(z-lib.org).pdf</a>
+
+      <p></p>
+
+      <a href="Robert O. Paxton-The Anatomy of Fascism  -Knopf (2004).pdf" download>Robert O. Paxton-The Anatomy of Fascism  -Knopf (2004).pdf</a>
+
+
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: hragan@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/YOUR-PROFILE" target="_blank">linkedin.com/in/YOUR-PROFILE</a></p>
+    <h2>contact</h2>
+    <p>Email: henrylragan@gmail.com</p>
   </section>
 
+<img src="square.jpg" class="blog-image-small">
+
   <footer>
-    <p>&copy; 2025 Henry Ragan. All rights reserved.</p>
+    <p>&copy; 2025 some rights reserved.</p>
   </footer>
+<script src="script.js"></script>
 </body>
 </html>
