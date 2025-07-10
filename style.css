@@ -89,3 +89,18 @@ p {
   margin-top: 0px;
   margin-bottom: 12px;
 }
+
+.short-line {
+  width: 50px;
+  margin: 40px auto; /* center horizontally */
+  border: none;
+  border-top: 2px solid #333; /* line style */
+}
+
+.full-width-name {
+  width: 100%;
+  color: white;
+  padding: 0px 0;
+  text-align: center;
+  margin: 0;
+}
